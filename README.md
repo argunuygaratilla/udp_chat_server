@@ -18,12 +18,12 @@ In this project, I wrote a simple chat program in python using the udp protocol.
 When you receive a message, notification_sound plays and informs you even if it is in the background.
 
 How to use:
-First, run server.py on the computer you will start as a server if pygame module has been not installed yet
+First, run server.py on the computer you will start as a server
 Then open client.py with the friend you want to talk to
 Start talking with client.py
 
 Important note:
-Before using the program, run the command
+Before using the program, run the command if pygame module has been not installed yet
 
 pip install pygame
 
