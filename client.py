@@ -15,7 +15,7 @@ name = input("Nickname: ")
 
 # Ses dosyasını yükle (ses dosyanızı buraya koymanız gerekiyor)
 # Örnek olarak notification_sound.wav dosyasını kullanalım.
-notification_sound = pygame.mixer.Sound("notification_sound.wav")
+notification_sound = pygame.mixer.Sound("notification_sound.mp3")
 
 # Mesajları almak için çalışan thread fonksiyonu
 def receive():
